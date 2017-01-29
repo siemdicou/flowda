@@ -349,6 +349,7 @@ section.contact {
 }
 .contactcontainer{
   position: absolute;
+  margin-top: 100px;
   padding: 0; 
 }
 .btn-success{
@@ -1054,7 +1055,7 @@ position:absolute;
     left: 0;
     top:0;
     z-index: 99998;
-margin-top:25px;
+margin-top: 50px;
   display: block;
   -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
