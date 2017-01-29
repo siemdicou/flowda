@@ -146,8 +146,8 @@ width:50%;
   background-position: bottom right;
 }
 
-.kaartjetijmen {
-  width: 100%;
+.kaartjeboi {
+width: 100%;
 }
 
 .omtrekkaartje {
@@ -227,7 +227,7 @@ width:50%;
 }
 .seq .seq-content {
   box-sizing: border-box;
-  overflow: hidden;
+/*  overflow: hidden;*/
   position: absolute;
   top: 0;
   left: 0;
@@ -1020,7 +1020,7 @@ display: inline-block;
 }
 @media only screen and (min-width: 600px) {
   .seq {
-    height: 10%;
+    height: 100%;
     min-height: 430px;
   }
   .seq .seq-instruction {
@@ -1052,7 +1052,7 @@ display: inline-block;
   .seq .seq-features li {
     font-size: 14px;
   }
-        .roedelpic {
+        .kaartjeboi {
     width: 100%;
 }
 }
@@ -1074,10 +1074,12 @@ display: inline-block;
 }
     
 
-
 }
 @media only screen and (min-width: 860px) {
     
+    .seq{
+      min-height: 800px;
+    }
     .seq .seq-instruction {
   max-width: 690px;
     }
